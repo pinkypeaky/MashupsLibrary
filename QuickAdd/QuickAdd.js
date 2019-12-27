@@ -3,9 +3,9 @@
 require(['all.components'], function () {
 
 
-    require(['tau/configurator'], function (c) {
+    require(['tau/configurator'], function (c) {   
         c.setApplicationPath(window.appHostAndPath);
-        // we will use fancy store API from tau.js
+        // we will use fancy store API from tau.js  
         var store = c.getStore();
 
 
