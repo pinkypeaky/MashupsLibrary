@@ -4,7 +4,7 @@ tau.mashups
     .addDependency('jQuery')
     .addDependency('tau/core/bus.reg')
     .addDependency('tau/configurator')
-    .addDependency('tp/date.utils')
+    .addDependency('tp/date.utils')   
     .addMashup(function (m, um, $, busRegistry, configurator, dateUtils) {
 
         var colorer = function() {
