@@ -1,11 +1,11 @@
 tau.mashups.addDependency('libs/jquery/jquery').addMashup(
-function (config) {
+function (config) {    
 	
 		var MERGE_MAPPINGS = {
 			'UserStory'		: ['Bugs','TestCases','Tasks'],
 			'Assignable'	: ['Times','Impediments'],
 			'General'		: ['Comments','Attachments']
-		};
+		};  
     
 		function processMerge() {
 			var storiesToMerge = $find('ctl00_mainArea_us_USSelection')._args;
