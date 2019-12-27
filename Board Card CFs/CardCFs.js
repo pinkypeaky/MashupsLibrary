@@ -26,7 +26,7 @@ tau.mashups
                     bus.on('overview.board.ready', $.proxy(function(eventName, sender) {
                         console.log('overview.board.ready');
                         this.loadData();
-                    }, this));
+                    }, this));   
 
                     bus.on('view.cell.skeleton.updated', $.proxy(function(eventName, sender) {
                         console.log('view.cell.skeleton.updated');
